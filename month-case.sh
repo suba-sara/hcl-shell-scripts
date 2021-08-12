@@ -1,31 +1,31 @@
 #!/bin/bash
 
-echo "You entered month number : $num" 
+
 case $num  in
-        0)
-                echo "January" ;;
         1)
-		echo "February" ;;
+                echo "January" ;;
         2)
+		echo "February" ;;
+        3)
 		echo "March" ;;
 
-       3)
+        4)
 		echo "April" ;;
-	4)
-		echo "May" ;;
 	5)
-		echo "June" ;;
+		echo "May" ;;
 	6)
-		echo "July" ;;
+		echo "June" ;;
 	7)
-		echo "August" ;;
+		echo "July" ;;
 	8)
-		echo "September" ;;
+		echo "August" ;;
 	9)
-		echo "October" ;;
+		echo "September" ;;
 	10)
-		echo "November" ;;
+		echo "October" ;;
 	11)
+		echo "November" ;;
+	12)
 		echo "December" ;;
 esac
 
