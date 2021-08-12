@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+echo " You entered month number $num"
 case $num  in
         1)
                 echo "January" ;;
