@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "You entered month number : $num" 
-case [ $num ] in
+case $num  in
         0)
                 echo "January" ;;
         1)
