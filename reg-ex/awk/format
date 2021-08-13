@@ -1,16 +1,2 @@
-BEGIN {
-
-print "------------------------------------------"
-print "             employee details"
-print "------------------------------------------"
-print "Name \t Designation \t Department \t Salary"
-print "-------------------------------------------"
-}
-{
-print $1 "  \t  " $2 "  \t  " $3 "  \t  " $4
-}
-END {
-print "-----------------------------------------"
-print "             The End"
-print "----------------------------------------"
-}
+BEGIN  {printf ("%-20s%-20s%-20s%-20s\n", "Name", "Designation", "Department", "Salary") } 
+               {printf ("%-20s%-20s%-20s%-20s\n", $1,$2,$3,$4) }
