@@ -1,0 +1,5 @@
+suba manager IT 25000
+pavi clerk IT 20000
+vijay manager IT 30000
+smit manager IT 35000
+raaga manager IT 25000 
